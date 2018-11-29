@@ -1,3 +1,376 @@
-Name,"Type (0 = Null, 1 = Nature, 2 = Synthetic, 3 = Zodiac, 4 = Item)","Deployment Cost (Energy, Aether, Terra, Transgenic, Cyborg, Machine, Celestial, Demonic, Essence, None)","Class (0 = Null, 1 = General, 2 = Infantry, 3 = Occurence, 4 = Relic, 5 = Terrain)",Subclass,Text,Rarity,Attack,HP
-TestA,1,2/0/1/0/0/0/0/0/0/2,2,Golem,A teter card.,0,3,4
-TestB,3,0/0/0/0/0/0/1/1/1/3,3,Burst,A second teter card.,1,0,0
+Name,"Deployment Cost (Energy, Aether, Terra, Transgenic, Cyborg, Machine, Celestial, Demonic, Essence, None)","Class (0 = Null, 1 = General, 2 = Infantry, 3 = Occurence, 4 = Relic, 5 = Terrain)",Subclass,Text,"Rarity (0=C, 1=S, 2=G, 3=P)",Attack,HP
+Aether Golem,0/1/0/1/0/0/0/0/0/1,2,Golem,Flight,0,3,3
+Aether Jump,0/1/0/0/0/0/0/0/0/1,3,Null,Move target Infantry onto target Battlefield.,1,0,0
+Bellbird Flock,0/2/0/0/0/0/0/0/0/3,2,Bird,"Flight/Banding 2/Prompt: Upon death, the Enemy puts a random card from the Domain into the Graveyard.",2,1,2
+"Brightfeather, Flugel General",0/1/0/0/0/0/0/0/0/0,1,Null,Allied Birds on your Homefront get +1 attack.,1,0,6
+"Davy Jones, Ghost Captain",0/1/0/0/0/0/0/0/1/0,1,King,Edict Initiate-{SA}: Each player puts 5 random cards from the Domain into the Graveyard.,2,0,6
+Driving Snow,0/1/0/0/0/0/0/0/0/1,3,Null,"Move target Infantry backwards 1 field, then stun it for 1 turn.",0,0,0
+Dust Bag,0/2/0/0/0/0/0/0/0/2,3,Null,Trick-On the Enemy: This player's next Infantry deployment is denied./Draw an Aether card.,1,0,0
+"Entite, the Aether",0/1/0/0/0/0/0/0/0/0,1,Null,Edict Initiate-{A}: Send target Infantry to its owner's hand.,3,0,7
+Entite's Chosen,0/2/0/0/0/0/0/0/0/2,2,Elemental,"Prompt: Upon arrival, refresh target Allied General's Edict./Camouflage",2,2,4
+Flight,0/1/0/0/0/0/0/0/0/1,0,Null,Union: Target Infantry gains Flight.,0,0,0
+Flood,0/2/0/0/0/0/0/0/0/4,5,Null,"Prompt: Upon arrival, stun each non-flying, non-Aether Infantry./All other Terrains are also Aether.",1,0,5
+Flugel Fisherman,0/2/0/0/0/0/0/0/0/0,2,Bird/Laborer,"Flight/Prompt: Upon arrival, draw a card and gain {A}.",0,1,1
+Flugel Sky Knight,0/1/0/0/0/0/0/0/0/3,2,Bird/Knight,Flight,0,3,3
+Flugel Sniper,0/2/0/0/0/0/0/0/0/1,2,Bird/Knight,Flight/Ambush,1,2,1
+Foul Wind,0/1/0/0/0/0/0/0/0/2,3,Null,View 5 random Enemy cards from the Domain. Put 1 into the Graveyard.,0,0,0
+Freezing Trap,0/1/0/0/0/0/0/0/0/1,3,Null,"Trick-On a Field: When an Enemy Infantry enters this field, stun it for 2 turns. ",0,0,0
+Frozen Solid,0/1/0/0/0/0/0/0/0/5,3,Null,Union: Stun target Infantry indefinitely.,1,0,0
+Gust,0/1/0/0/0/0/0/0/0/0,3,Null,Move target Infantry forwards or backwards 1 field./Draw a card.,0,0,0
+Hurricane,0/3/0/0/0/0/0/0/0/1,3,Null,Move all Infantry to their owner's Homefront.,2,0,0
+Murae Scryer,0/1/0/0/0/0/0/0/0/4,2,Equine/Spellcaster,"Prompt: At your end step, draw an Aether card.",2,2,2
+Murae Wind Shaman,0/2/0/0/0/0/0/0/0/5,2,Equine/Spellcaster,"Prompt: Upon arrival, send target Infantry to its owner's Homefront. Gain {A}.",0,4,4
+Redirect,0/2/0/0/0/0/0/0/0/0,3,Null,Trick-On the Enemy: This player's next Occurrence deployment has its targets chosen by you.,2,0,0
+Repossess,0/1/0/0/0/0/0/0/0/1,3,Null,Send target Relic or Terrain to its owner's hand.,0,0,0
+Rushing River,0/2/0/0/0/0/0/0/0/2,5,Null,"Prompt: When a non-flying, non-Aether Infantry enters this field, stun it for 1 turn.",2,0,5
+Scry,0/2/0/0/0/0/0/0/0/2,3,Null,Draw a card and an Aether card.,0,0,0
+Sea-Terror Leviathan,0/2/0/0/0/0/0/0/0/6,2,Leviathan,Gain 1 less {A} durning the Recovery Phase if this isn't on an Aether Terrain./Blocker,2,7,7
+Sky-Terror Leviathan,0/2/0/0/0/0/0/0/0/5,2,Leviathan,"Flight/Hunt/Prompt: When this defeats an Infantry or damages a General, that Permanent's controller puts 3 random cards from the Domain into the Graveyard.",3,3,4
+Sudden Mist,0/1/0/0/0/0/0/0/0/1,3,Null,Each Infantry loses Range and gains Camouflage until your next turn.,1,0,0
+Tornado,0/2/0/0/0/0/0/0/0/5,3,Null,Send all Infantry on target Field to their owner's hand.,2,0,0
+Total Recall,0/2/0/0/0/0/0/0/0/3,3,Null,Send all Relics and Terrains to their owner's hand. Gain {A}.,1,0,0
+Trap Portal,0/1/0/0/0/0/0/0/0/0,3,Null,"Trick-On a Field: When an Enemy Infantry enters this field, send it to the Enemy Homefront.",0,0,0
+Tsunami,0/3/0/0/0/0/0/0/0/6,3,Null,Move all Infantry and Relics to the Enemy Homefront. Stun all Infantry moved this way for 1 turn.,0,0,0
+Weatherwatcher Jean,0/1/0/0/0/0/0/0/0/0,1,Loremaster,Initiate-{AWWW}: View the Enemy's hand.,2,0,7
+Whisk Away,0/1/0/0/0/0/0/0/0/2,3,Null,"Send target Infantry to its owner's hand. If it was a Token, put a copy of this into your hand.",0,0,0
+Wind Mage,0/2/0/0/0/0/0/0/0/0,2,Human/Spellcaster,Initiate-{K}: Move target Infantry that is up to 1 field away backwards 1 field.,1,1,3
+Wingmaker,0/1/0/0/0/0/0/0/0/5,2,Human/Scientist,"Union Prompt: Upon death, a random Allied Infantry gains Flight.",0,4,5
+Agni of Blue Flame,1/0/0/0/0/0/0/0/0/0,1,Null,Edict Initiate-{E}: Deals 3 hits to target Permanent on your Kingdom.,2,0,6
+Avatar of Cataclysm,1/0/0/0/0/0/0/0/0/3,2,Avatar,"Prompt: When this moves onto a field during the Move Phase, deals 1 hit to each Permanent on that field.",2,3,2
+Bargain,1/0/0/0/0/0/0/0/0/0,3,Null,Your next Occurrence deployment costs {WWW} less.,0,0,0
+Blaze,2/0/0/0/0/0/0/0/0/3,3,Null,"Deals 3 to 5 hits target Infantry, Relic, or Terrain.",1,0,0
+Breakneck Trooper,1/0/0/0/0/0/0/0/0/3,2,Human/Warrior,May be deployed onto your Battlefield./Ambush,2,2,2
+Defibrillate,1/0/0/0/0/0/0/0/0/0,3,Null,Choose one:/*Stun target Infantry./*Ready target Infantry.,0,0,0
+Detonate,1/0/0/0/0/0/0/0/0/3,3,Null,Deals 6 hits to target Relic and 3 hits to any Infantry that Relic is attached to.,1,0,0
+Devouring Dragon,2/0/0/0/0/0/0/0/0/4,2,Dragon,"Flight/Union Prompt: Upon arrival, you may destroy another target Infantry on this field. If you do, this gains +2 attack, +2 health.",2,3,3
+Elder Thunder Dragon,3/0/0/0/0/0/0/0/0/4,2,Dragon,"May be deployed onto your Battlefield./Flight/Prompt: Upon arrival, deals 1 hit to each other Infantry. Stun those Infantry for 1 turn.",3,4,4
+Energy Tower,1/0/0/0/0/0/0/0/0/2,5,Null,"Prompt: When your Occurrence targets a Permanent on this field, gain {E}.",1,0,4
+Fervent Pyromancer,2/0/0/0/0/0/0/0/0/1,2,Human/Spellcaster,"Initiate-{KEWX}: Deals 2+X hits to target Infantry, Relic, or Terrain that is up to 1 field away. This dies if X is more than 0.",2,1,4
+Fiery Catastrophe,3/0/0/0/0/0/0/0/0/6,3,Null,"For each field, deals 3 hits to target non-General Permanent on that field. Permanents are expelled instead of destroyed for the turn.",3,0,0
+Fire Aura,1/0/0/0/0/0/0/0/0/1,3,Null,Union: Target Infantry gains Backlash 2./Gain {E}.,0,0,0
+Fire Mage,2/0/0/0/0/0/0/0/0/0,2,Human/Spellcaster,Initiate-{K}: Deals 1 hit to target Permanent that is up to 1 field away.,1,1,3
+Flame Sprite,2/0/0/0/0/0/0/0/0/1,2,Fae,Backlash 3,0,2,3
+Grink Bully,1/0/0/0/0/0/0/0/0/3,2,Grink,Null,0,4,3
+Kamikaze Grink,1/0/0/0/0/0/0/0/0/2,2,Grink,"Prompt: Upon death, deals hits equal to its attack divided randomly to Enemy Permanents on this field.",2,4,1
+Lava Sentry,1/0/0/0/0/0/0/0/0/0,2,Elemental,Ambush,0,1,2
+Lightning Elemental,2/0/0/0/0/0/0/0/0/3,2,Elemental,"May be deployed onto the Enemy's Homefront./Ambush/Prompt: After this attacks, send it to your hand from in play.",1,1,1
+Living Fireball,2/0/0/0/0/0/0/0/0/3,2,Elemental,"Backlash 6/Prompt: Upon death, deploy a Living Ember Token onto this field.",1,1,1
+Magma Golem,1/0/0/1/0/0/0/0/0/2,2,Golem,Range,0,5,4
+Marauding Dragon,2/0/0/0/0/0/0/0/0/3,2,Dragon,Flight/Initiate-{KEWW}: Deals 6 hits to target Terrain that is up to 1 field away and 2 hits to each other Infantry on that field.,2,3,5
+Meteor Brute,1/0/0/0/0/0/0/0/0/3,2,Elemental,"Prompt: Upon arrival, deals 4 hits to target Terrain.",0,2,3
+Meteor Rain,3/0/0/0/0/0/0/0/0/X,3,Null,"Deals X+3 hits divided randomly among all Infantry, Relics, and Terrains.",2,0,0
+Pitch Field,1/0/0/0/0/0/0/0/0/5,2,Fiend,"Prompt: Upon death, deals 2 hits to a random Enemy Permanent on this field.",0,4,4
+Provoke Authority,1/0/0/0/0/0/0/0/0/0,3,Null,Deals 1 hit to target General.,0,0,0
+Ritual Volcano,2/0/0/0/0/0/0/0/0/5,5,Null,"Prompt: At your End Step, reduce the cost of a random Occurrence in your hand by {WWWW}.",2,0,5
+Searing Blast,1/0/0/0/0/0/0/0/0/2,3,Null,"Deals 2 hits to target Infantry, Relic, or Terrain.",0,0,0
+Shockwave,1/0/0/0/0/0/0/0/0/3,3,Null,Stun each Infantry on target field for 2 turns.,1,0,0
+Slag Nest,2/0/0/0/0/0/0/0/0/2,2,Amphibian,"Banding 2/Prompt: When this attacks a Relic, it gains +2 attack until end of turn.",1,1,2
+Thunderfang,2/0/0/0/0/0/0/0/0/3,2,Feline,"May be deployed onto your Battlefield./Prompt: Upon arrival, gain {E}.",0,4,2
+"Tugru, Grink Zealot",1/0/0/0/0/0/0/0/0/0,1,Warlord,Allied Grinks on your Homefront can't be stunned.,1,0,7
+Voltaic Grink,1/0/0/0/0/0/0/0/0/1,2,Grink,Ambush/Prompt: Stun Infantry that battle with this for 1 turn.,0,1,1
+"Whitescale, Dragon Warlord",1/0/0/0/0/0/0/0/0/0,1,Warlord,Edict Initiate-{E}: Your Energy Occurrences deal +1 hits for the turn.,3,0,7
+Bakarthian Volley,0/0/1/0/0/0/0/0/0/2,3,Null,"Union: Target flying Infantry can't move, loses flight, and can't gain flight.",1,0,0
+Bird Hunter,0/0/1/0/0/0/0/0/0/5,2,Titan,"Range/Union Prompt: When this defeats a flying Infantry, gains +1 attack, +1 health.",2,4,4
+Cannid Archer,0/0/1/0/0/0/0/0/0/3,2,Canine/Knight,Range,0,3,3
+Canopy Blessing,0/0/2/0/0/0/0/0/0/0,3,Null,Union: Target Infantry gains Camouflage and Range.,1,0,0
+Cave Troll,0/0/1/0/0/0/0/0/0/4,2,Fae,"Prompt: At your Recovery Phase, heals 1 health.",2,3,5
+Cleanse,0/0/1/0/0/0/0/0/0/0,3,Null,Remove all Union Effects from all Infantry./Draw a card.,0,0,0
+Earth Golem,0/0/1/1/0/0/0/0/0/0,2,Golem,Null,0,3,3
+"Edgar, Land Baron",0/0/1/0/0/0/0/0/0/0,1,Null,Edict Initiate-{T}: Draw a Terrain card.,1,0,6
+Elder Trent,0/0/2/0/0/0/0/0/0/4,2,Plant,Cleave/Encumbered,0,6,4
+Farmhand,0/0/2/0/0/0/0/0/0/0,2,Human/Laborer,Initiate-{K}: Gain {T}.,1,1,3
+Farmstead,0/0/2/0/0/0/0/0/0/3,5,Null,"Prompt: At your Recovery Phase, gain {T}.",1,0,6
+Flying Squirrel,0/0/1/0/0/0/0/0/0/0,2,Rodent,Range,0,2,2
+Harvest,0/0/1/0/0/0/0/0/0/1,3,Null,Gain {TTT}.,0,0,0
+"Ivan, the Fat King",0/0/1/0/0/0/0/0/0/0,1,King,"Prompt: At your Recovery Phase, gain {W}.",2,0,8
+"Joseph, Golem King",0/0/1/1/0/0/0/0/0/0,1,King,Initiate-Sacrifice a Golem: Gain {T} or {G}.,1,0,6
+Land Tax,0/0/1/0/0/0/0/0/0/2,3,Null,"Union: Target Terrain has 'Prompt: At your Recovery Phase, sacrifice a command.'",1,0,0
+Living Harvest,0/0/2/0/0/0/0/0/0/0,2,Elemental/Spellcaster,"Prompt: Upon arrival, gain {TT}.",0,1,3
+Maunten the Colossal,0/0/1/0/0/0/0/0/0/0,1,Null,Edict Initiate-{T}: Destroy target Terrain. Its controller gains 3 less command at their next Recovery Phase.,3,0,8
+Maunten's Chosen,0/0/2/0/0/0/0/0/0/7,2,Titan,"Prompt: Upon arrival, refresh target Allied General's Edict./Range",2,8,8
+Mesa Titan,0/0/2/0/0/0/0/0/0/5,2,Titan,Null,1,6,7
+Natural Disrepair,0/0/2/0/0/0/0/0/0/1,3,Null,Deals 1 hit to each Enemy Relic./Gain {T}.,1,0,0
+Nourish,0/0/1/0/0/0/0/0/0/0,3,Null,Heals target Infantry or Terrain for 2 health./Draw a card.,0,0,0
+Obscured Vision,0/0/1/0/0/0/0/0/0/0,3,Null,"Union: Target Infantry loses Range and Ambush, and can't gain Range or Ambush.",0,0,0
+Overwhelming Overgrowth,0/0/3/0/0/0/0/0/0/4,5,Null,"Prompt: Upon arrival, destroy all other Terrains./Prompt: At your Recovery Phase, gain {TT}.",2,0,7
+Reprisal,0/0/2/0/0/0/0/0/0/2,3,Null,Destroy target Relic. Its controller gains less command equal to its deployment cost during their next Recovery Phase.,2,0,0
+Sap,0/0/2/0/0/0/0/0/0/3,3,Null,"Union: Target Infantry can't move. If it's on your Homefront, it can't attack.",0,0,0
+Scarcity,0/0/3/0/0/0/0/0/0/6,3,Null,The Enemy gains no command during their next Recovery Phase.,3,0,0
+Spider Monkey,0/0/1/0/0/0/0/0/0/3,2,Primate,Range/Blocker,1,2,4
+Spite,0/0/1/0/0/0/0/0/0/3,3,Null,Choose an Element. Enemy Generals can't produce command of that Element next turn.,0,0,0
+Stalking Tiger,0/0/2/0/0/0/0/0/0/1,2,Feline,Camouflage,0,3,3
+Sunder Brute,0/0/1/0/0/0/0/0/0/3,2,Elemental,"Prompt: Upon arrival, deals 2 hits to target Relic.",0,2,3
+Surplus,0/0/1/0/0/0/0/0/0/4,3,Null,"At your next Recovery Phase, Allied Generals produce +1 command.",2,0,0
+Taiga Goliath,0/0/3/0/0/0/0/0/0/9,2,Titan,"Cleave/Prompt: Upon arrival, gain {T}.",3,10,10
+Thorn Elemental,0/0/2/0/0/0/0/0/0/X,2,Plant/Elemental,"Union Prompt: Upon arrival, gains +X attack, +X health.",2,1,1
+Trent Sentry,0/0/1/0/0/0/0/0/0/4,2,Plant,Blocker/Encumbered,0,2,5
+Wandering Land,0/0/1/0/0/0/0/0/0/1,3,Null,Move target Terrain onto target field that doesn't already have a Terrain on it.,2,0,0
+Aquire Test Subject,0/0/0/2/0/0/0/0/0/1,3,Null,"Put a random 3-cost Infantry onto your Homefront from your Domain. Until end of turn, it can't move and gains +3 attack.",1,0,0
+Adaptive Chimera,0/0/0/2/0/0/0/0/0/3,2,Chimera,"Union Prompt: When this is dealt hits, it gains that much attack.",2,2,6
+Bio Golem,0/0/0/1/0/0/0/0/0/2,2,Golem,Initiate-{WW}: This gains +2 attack until your next turn. Usable once per turn.,1,2,4
+Biomatter Mill,0/0/0/2/0/0/0/0/0/3,5,Null,Initiate-Sacrifice an Infantry from this field: Gain {G} equal to that Infantry's Health.,2,0,5
+Brain Slug,0/0/0/2/0/0/0/0/0/1,2,Mollusk,Initiate-{KGWW}: This attaches to target Infantry and is an Armament Relic as long as it is attached./You control attached Infantry.,2,0,5
+Catalyst of Creation,0/0/0/1/0/0/0/0/0/0,4,Null,"Sacrifice an Infantry to deploy this./Indestructible/Initiate-Sacrifice another Relic: Gain {GG}./Initiate-{GGG}, Expel a card from your Graveyard: Put a token copy of that card into your hand.",3,0,2
+Continued Research,0/0/0/1/0/0/0/0/0/2,3,Null,"Union: Target Allied Relic has 'At your Recovery Phase, gain {W}.'",0,0,0
+"Dromapien, the Chimera",0/0/0/1/0/0/0/0/0/0,1,Null,Edict Initiate-{G}: Deploy a Dromapawn Token.,3,0,7
+Dromapien's Chosen,0/0/0/2/0/0/0/0/0/1,2,Chimera,"Sacrifice an Infantry to deploy this./Prompt: Upon arrival, refresh target Allied General's Edict.",2,4,4
+Dumpster Dive,0/0/0/2/0/0/0/0/0/1,2,Null,Put two random cards from your Graveyard into your hand.,0,0,0
+Exoskeleton,0/0/0/1/0/0/0/0/0/0,2,Null,Union: Target Infantry gains +2 health./Gain {G}.,0,0,0
+Failed Supereplica,0/0/0/2/0/0/0/0/0/3,2,Fiend,Null,0,5,5
+Fallout Zone,0/0/0/0/0/0/0/0/0/0,5,Null,"Union Prompt: When an Allied Infantry is readied while on this field, it gains a random keyword.",2,0,4
+Fusion,0/0/0/2/0/0/0/0/0/2,2,Null,Union: Fuse target Allied Infantry into another target Allied Infantry.,2,0,0
+Gene Harvester,0/0/0/2/0/0/0/0/0/0,3,Human/Scientist,Initiate-{K}: Gain {G}.,1,1,3
+Gene-Manipulation Device,0/0/0/1/0/0/0/0/0/2,4,Null,"Prompt: Upon arrival, name an Element./All Permanents are also that Element.",2,0,4
+Genetic Infusion,0/0/0/1/0/0/0/0/0/1,3,Null,Union: Target Allied General gains an additional Element of your choice./Draw a card.,0,0,0
+Genetic Serpent,0/0/0/2/0/0/0/0/0/1,2,Reptile,Initiate-{WW}: This gains Resilience 1 until your next turn.,0,3,2
+Giant Chameleon,0/0/0/1/0/0/0/0/0/3,2,Reptile,Camouflage,0,2,4
+Gif Ya'galma,0/0/0/1/0/0/0/1/0/6,1,Golem/Fiend,Cleave,1,6,6
+Masochism,0/0/0/2/0/0/0/0/0/3,3,Null,"Union: Target Infantry and each Infantry with the same name get +2 attack, -2 health.",1,0,0
+Muscle Master,0/0/0/2/0/0/0/0/0/0,2,Human/Warrior,Initiate-{WWW} This gains +1 attack for the turn.,0,1,3
+Optimize,0/0/0/1/0/0/0/0/0/1,3,Null,"Union: Target Allied General has 'At your Recovery Phase, gain {W}.'",0,0,0
+Penicillin Pusher,0/0/0/1/0/0/0/0/0/1,2,Human/Scientist,"Prompt: Upon arrival, remove all Union Effects from target Permanent or Player.",0,2,2
+Radiation Field,0/0/0/2/0/0/0/0/0/3,5,Null,"Prompt: When an Allied Infantry attacks while on this field, it gains +3 attack for the turn.",2,0,4
+Reboot,0/0/0/3/0/0/0/0/0/6,3,Null,Put the Graveyards and hands into the Domains. Each player draws 5 cards.,3,0,0
+Renew,0/0/0/2/0/0/0/0/0/2,3,Null,View the cards in your Graveyard. Put one into your hand./Expel this.,1,0,0
+Self Disector,0/0/0/1/0/0/0/0/0/0,2,Human/Scientist,"Prompt: Upon death, gain {WW}.",0,2,1
+Spider Chimera,0/0/0/1/0/0/0/0/0/2,2,Bug/Chimera,Range/Deadly against flying Infantry.,1,2,3
+Steroids,0/0/0/1/0/0/0/0/0/1,3,Null,"Union Trick-On an Infantry: When this Infantry attacks or is attacked, it gains +1 attack, +1 health.",0,0,0
+Upgrade Tower,0/0/0/2/0/0/0/0/0/4,5,Null,"Union Initiate-{WWW}: Target Infantry on this field gains +1 attack, +1 health. Usable once per turn.",1,0,4
+Wilhelm the Genius,0/0/0/1/0/0/0/0/0/0,1,Null,"Prompt: When an Allied Infantry dies while on your Kingdom, gain {G}.",2,0,6
+"Atam, the First Created",0/0/0/0/0/1/0/0/0/0,1,Null,"Initiate-{M}: For the turn, this becomes an Infantry with 3 attack and an Action. Usable once per turn.",3,0,7
+Atam's Scope,0/0/0/0/0/1/0/0/0/2,4,Armament,Enemy Occurrences that target attached Infantry cost {WWWW} more to deploy.,1,0,2
+Automated Smasher,0/0/0/0/0/1/0/0/0/2,2,Robot,Initiate-{KWW}: Deals 3 hits to target Infantry on this field.,0,1,3
+Calculate,0/0/0/0/0/1/0/0/0/0,3,Null,"View 2 random cards from your Domain. Draw 1 of them, the other goes to the Graveyard.",0,0,0
+Catapult Juggernaut,0/0/0/0/0/1/0/0/0/5,2,Robot,"Initiate-{K}, Sacrifice a Relic: Deals hits equal to that Relic's health to target Permanent that is up to 1 field away.",1,1,4
+Cheap Robot,0/0/0/0/0/1/0/0/0/1,2,Robot,Ambush,0,2,2
+Computational Facility,0/0/0/0/0/2/0/0/0/2,5,Null,"Prompt: When an Allied Infantry dies while on this field, draw a card.",1,0,5
+Explosive Field,0/0/0/0/0/1/0/0/0/3,5,Null,"Prompt: When a Cyborg or Machine Infantry dies while on this field, it deals 1 hit to a random Enemy Permanent on this field.",2,0,5
+Flak Cannon,0/0/0/0/0/1/0/0/0/4,4,Null,"Initiate-{WW}, Discard a card: Deals 2 hits to target flying Infantry on your Kingdom.",0,0,5
+Foresight,0/0/0/0/0/1/0/0/0/2,3,Null,Union: Target Infantry gains Ambush.,0,0,0
+High Bid,0/0/0/0/0/1/0/0/0/X,3,Null,The Enemy's cards cost X more {W} to deploy until your next turn.,0,0,0
+Immediate Distribution,0/0/0/0/0/3/0/0/0/0,3,Null,View target Player's hand. Choose an Occurrence from it. Its owner deploys it without playing its cost. Then you deploy a token copy of it.,1,0,0
+Index,0/0/0/0/0/1/0/0/0/1,3,Null,Draw an Occurrence.,1,0,0
+Inquiry,0/0/0/0/0/2/0/0/0/2,3,Null,View your Domain. Put one card into your hand.,1,0,0
+Intercepting Utalanes,0/0/0/0/0/1/0/0/0/0,2,Robot,"Prompt: Upon death, Enemy Infantry cost {WW} more to deploy for the Enemy's next turn.",0,1,1
+Mechanical Researcher,0/0/0/0/0/2/0/0/0/0,2,Robot,"Initiate-{K}: Draw a card, then discard a card.",1,1,3
+Ordnance Enforcer,0/0/0/0/0/2/0/0/0/4,2,Robot,Blocker/Initiate-{K}: Deals 1 hit to each Enemy Infantry on this field.,3,2,6
+Perfect Prediction,0/0/0/0/0/3/0/0/0/3,3,Null,View your Domain. Choose 3 cards. Those are the next 3 cards you draw from your Domain.,2,0,0
+Precise Shot,0/0/0/0/0/1/0/0/0/2,3,Null,Deals 3 hits to target Infantry. Deals +3 hits if that Infantry is on your Homefront.,0,0,0
+Proportionate Response,0/0/0/0/0/3/0/0/0/6,3,Null,Deals 1 hit to each Infantry./Deploy a Titanic Robot Token.,3,0,0
+R.B.C.U.,0/0/0/0/0/1/0/0/0/0,1,Null,Backlash 9/Prompt: Deny Enemy Occurrences that target this.,2,0,6
+Recursive Protocol,0/0/0/0/0/2/0/0/0/2,3,Null,View the Occurrences in Graveyards. Deploy one without paying its cost. Expel it and this.,2,0,0
+Research,0/0/0/0/0/1/0/0/0/2,3,Null,"View 4 random cards from your Domain. Draw 1 of them. Then, choose 1 of them. That is the next card you draw.",1,0,0
+Retractable Robot,0/0/0/0/0/1/0/0/0/2,2,Robot,Initiate-{WW}: This gains Ambush for the turn.,0,3,3
+Robo Buddies,0/0/0/0/0/1/0/0/0/3,2,Robot,"Prompt: Upon death, deploy two Robot Tokens onto this field.",0,2,2
+Robot Factory,0/0/0/0/0/2/0/0/0/3,5,Null,Initiate-{WWWWW}: Deploy a Robot Token onto this field.,2,0,5
+Rusty Utalane,0/0/0/0/0/1/0/0/0/2,2,Robot,Encumbered,0,3,4
+Salt the Land,0/0/0/0/0/1/0/0/0/2,3,Null,Deals 6 hits to target Terrain.,0,0,0
+Search Engine,0/0/0/0/0/2/0/0/0/0,2,Robot,"Prompt: Upon arrival, view 3 random cards from your Domain. Choose one of them. That is the next card you draw. Gain {M}.",0,1,3
+Sequence Replicate,0/0/0/0/0/1/0/0/0/3,3,Null,Deploy a Robot Token./Deals 2 hits to target Infantry if {E} was spent./Draw a card if {S} was spent.,2,0,0
+Spy Bug,0/0/0/0/0/1/0/0/0/1,2,Robot,"May be deployed onto the Enemy Battlefield./Prompt: When this attacks a General, draw a card.",2,0,2
+Telgin Unknown,0/0/0/0/0/1/0/0/0/0,1,Null,Edict Initiate-{M}: Draw an Occurrence.,1,0,6
+Transformer,0/0/0/0/0/2/0/0/0/3,4,Null,"Prompt: Upon arrival and at your Recovery Phase, choose one:/*This is a Robot Infantry with 3 attack and an Action./*This isn't an Infantry and has 'Initiate-{W}: Deals 1 hit to target Infantry that is up to 1 field away. Usable once per turn.'",2,0,4
+Vetting Machine,0/0/0/0/0/2/0/0/0/4,4,Null,"Prompt: At your recovery phase, instead of drawing, view 3 random cards from your domain. Draw 1 of them.",2,0,4
+Appropriate,0/0/0/0/1/0/0/0/0/5,3,Null,"Unattach all Armaments and send them to your Homefront. For each Armament, you may attach it to target Allied Infantry.",2,0,0
+Arsenal Grink,0/0/0/0/2/0/0/0/0/2,2,Grink,Ambush./Can attack Permanents up to 1 field away while it has Ambush.,1,2,1
+Artifact Collector,0/0/0/0/2/0/0/0/0/0,2,Human,"Union Prompt: Upon arrival, gains +1 attack, +1 health for each Allied Relic.",2,1,1
+Cyannelid,0/0/0/0/2/0/0/0/0/4,2,Bug,"Flight/Cleave/Backlash 3/Prompt: Upon arrival, deploy 3 Sentinel Tokens on this field.",3,3,3
+Deft Pickpocket,0/0/0/0/2/0/0/0/0/0,2,Human/Rogue,Initiate-{WW}: Attach target Armament on this field to this. Usable once per turn.,2,2,2
+Energizer Mage,0/0/0/0/2/0/0/0/0/0,2,Human/Spellcaster,Initiate-{K}: Ready another target Infantry that is up to 1 field away.,1,1,3
+Forced March,0/0/0/0/1/0/0/0/0/4,3,Null,Move each Allied Infantry on target field forward 1 field.,0,0,0
+Forcefield,0/0/0/0/3/0/0/0/0/2,4,Armament,Backlash 4/Attached Infantry has Camouflage and Resilience 4.,2,0,4
+Forge,0/0/0/0/3/0/0/0/0/6,3,Null,"View all Relics from your Domain. Put one onto your Homefront. If it is an Armament, you may attach it to target Allied Infantry.",3,0,0
+Hover Pack,0/0/0/0/1/0/0/0/0/1,4,Armament,Attached Infantry has Flight.,1,0,2
+Leg Modification,0/0/0/0/2/0/0/0/0/0,3,Null,Move target Infantry forwards 2 fields.,0,0,0
+Mecha Blade,0/0/0/0/1/0/0/0/0/2,4,Armament,Attached Infantry has +1 attack and Cleave.,0,0,3
+Mecha Halberd,0/0/0/0/2/0/0/0/0/1,4,Armament,"Attached Infantry has Cleave, Ambush, and Range",2,0,4
+Model Armadillo,0/0/0/0/2/0/0/0/0/2,2,Human/Rodent,Has +2 health while attached with an Armament.,1,2,5
+Model General,0/0/0/0/1/0/0/0/0/0,1,Null,The first Cyborg Relic you deploy each turn costs {W} less.,3,0,0
+Model Guardian,0/0/0/0/1/0/0/0/0/4,2,Human/Knight,Blocker,0,1,6
+Model Mantis,0/0/0/0/1/0/0/0/0/0,1,Human/Bug,Resilience 1,0,1,2
+Model Roadrunner,0/0/0/0/1/0/0/0/0/4,2,Human/Bird,May be deployed onto your Battlefield./Can't be stunned.,0,4,3
+Model Spy,0/0/0/0/1/0/0/0/0/0,2,Human/Rogue,"Prompt: Upon arrival, attach target Armament you own to target Allied Infantry on your Homefront.",0,1,1
+Model Warlock,0/0/0/0/2/0/0/0/0/4,2,Human/Spellcaster,"Prompt: Upon death, a random non-Sentinel Enemy Infantry becomes a Sentinel.",0,4,4
+Model Weaons Master,0/0/0/0/2/0/0/0/0/3,2,Human/Warrior,Has +2 attack while attached with an Armament.,1,5,2
+Modified Rat,0/0/0/0/1/0/0/0/0/1,2,Rodent,May be deployed onto your Homefront.,0,2,2
+Monda the Augmented,0/0/0/0/1/0/0/0/0/0,1,Loremaster,Initiate-{YW}: Attach target Armament on your Homefront to target Allied Infantry on your Homefront.,2,0,6
+Mortar Grink,0/0/0/0/2/0/0/0/0/2,2,Grink,Range/Ambush/Resilience 2,2,4,1
+Prowess,0/0/0/0/1/0/0/0/0/1,3,Null,Union: Target Infantry has Cleave.,0,0,0
+Ratification,0/0/0/0/1/0/0/0/0/0,3,Null,Target Infantry or Relic becomes a Modified Rat.,0,0,0
+Recoup,0/0/0/0/2/0/0/0/0/5,3,Null,Ready each Allied Infantry.,2,0,0
+Repairman,0/0/0/0/1/0/0/0/0/1,2,Human/Laborer,Initiate-{K}: Heals target Relic on this field for 3 health.,1,1,3
+Salvage,0/0/0/0/2/0/0/0/0/0,3,Null,View all Relics from your Graveyard. Put one into your hand. Expel this.,0,0,0
+Slavedriver Beauregard,0/0/0/0/1/0/0/0/0/0,1,Null,Edict Initiate-{Y}: Draw a Relic.,1,0,7
+Strengthening Zone,0/0/0/0/2/0/0/0/0/3,5,Null,"Initiate-{WWWW}: For the turn, Allied Infantry on this field gain +1 attack for each Allied Infantry on this field.",1,0,5
+Superior Carapace,0/0/0/0/1/0/0/0/0/3,4,Armament,"Prompt: When an Infantry becomes attached with this, you may move it forward 1 field./Attached Infantry has +1 attack, +1 health.",1,0,3
+Trash Brawler,0/0/0/0/1/0/0/0/0/3,2,Human/Warrior,"Prompt: Upon arrival, attach a random Armament to this from your Graveyard.",2,2,3
+Wanton Sharpshooter,0/0/0/0/1/0/0/0/0/6,2,Human/Rogue,Range,0,5,5
+Angel of Reverence,0/0/0/0/0/0/3/0/0/4,2,Angel,"Flight/Other Infantry on this field can't be readied during the Recovery Phase./Prompt: When another Infantry enters this field, stun it.",3,4,4
+Answered Prayer,0/0/0/0/0/0/3/0/0/6,3,Null,View all cards. Put 1 into your hand.,3,0,0
+Archangel,0/0/0/0/0/0/2/0/0/4,2,Angel/Knight,"Flight/Prompt: Upon arrival, expel target Demonic Infantry on your Kingdom./Deadly against Demonic Infantry.",2,3,3
+Call to Arms,0/0/0/0/0/0/1/0/0/1,3,Null,Draw an Infantry.,0,0,0
+Cannid Whelp,0/0/0/0/0/0/1/0/0/0,2,Canine/Knight,Can't be attacked by Infantry with 2 or more attack.,1,1,2
+Dem'Olysis the Consecrated,0/0/0/0/0/0/1/0/0/0,1,Null,Edict Union Initiate-{C}: Target Infantry can't attack.,3,0,7
+Dem'Olysis's Chosen,0/0/0/0/0/0/2/0/0/5,2,Human/Spellcaster,"Prompt: Upon arrival, refresh target Allied General's Edict. Then put a random 2-or-less attack Infantry from your Graveyard onto your Homefront.",2,3,2
+Divine Boon,0/0/0/0/0/0/1/0/0/0,3,Null,Union: Target Infantry gets +1 health./Fully heal it.,0,0,0
+Divine Retribution,0/0/0/0/0/0/2/0/0/2,3,Null,"Trick-On an Enemy Permanent: The next time hits would be dealt to an Allied Permanent, up to 2 of those hits are dealt to this Permanent instead.",2,0,0
+Field of Flowers,0/0/0/0/0/0/2/0/0/2,5,Null,Each Enemy Infantry can't use their Action while on this field unless the Enemy pays {WWW} for that Infantry.,2,0,5
+Flugel Cloudworshiper,0/0/0/0/0/0/2/0/0/0,2,Bird,Flight/Can only attack flying Infantry and Generals.,0,3,2
+For the War Effort,0/0/0/0/0/0/1/0/0/0,3,Null,Your next Infantry deployment costs {WWW} less.,0,0,0
+Full Heal,0/0/0/0/0/0/2/0/0/0,3,Null,"Fully heal target Infantry, Relic, or Terrain./Gain {C}.",1,0,0
+Gregor the Recruiter,0/0/0/0/0/0/1/0/0/0,1,Null,Edict Initiate-{C}: Draw an Infantry.,1,0,6
+Guardian of Bakarth,0/0/0/0/0/0/2/0/0/3,2,Canine/Knight,"Blocker/Prompt: When this battles an Infantry on your Homefront, it gets x2 attack for the turn.",2,2,6
+Guardian Statue,0/0/0/0/0/0/1/0/0/3,4,Null,Blocker,1,0,4
+Hallowed Ground,0/0/0/0/0/0/2/0/0/1,5,Null,Initiate-{WW}: Heals target Infantry on this field for 2 health.,1,0,5
+Hold Fast,0/0/0/0/0/0/1/0/0/3,3,Null,Any number of target Allied Infantry can't move during your next Move Phase.,1,0,0
+Holy Beast,0/0/0/0/0/0/1/0/0/1,2,Bovine,Null,0,0,5
+Holy Paladin,0/0/0/0/0/0/1/0/0/3,2,Human/Knight,This can only move onto a Celestial Terrain.,0,4,4
+Instill Awe,0/0/0/0/0/0/2/0/0/3,3,Null,Union: Target Infantry can't attack or use Initiate Effects.,1,0,0
+Lux Aeterna,0/0/0/0/0/0/1/0/0/0,1,Null,Edict Initiate-{C}: Heals 4 health divided as you choose among any number of target Allied Infantry or Generals.,2,0,6
+Mahout Defender,0/0/0/0/0/0/1/0/0/3,2,Human/Laborer,Blocker/Encumbered,0,1,5
+Migrane,0/0/0/0/0/0/1/0/0/0,3,Null,Target Player's cards cost {WW} more to deploy your next turn.,0,0,0
+Miraculous Return,0/0/0/0/0/0/3/0/0/2,3,Null,Revive target General. Fully heal it.,2,0,0
+Nightwatch Duty,0/0/0/0/0/0/1/0/0/1,3,Null,Union: Target Infantry gains +2 health and Blocker.,1,0,0
+Paperwork,0/0/0/0/0/0/1/0/0/2,3,Null,Enemy Infantry cost {WWWW} more to deploy until your next turn.,1,0,0
+Phalanx,0/0/0/0/0/0/2/0/0/4,3,Null,Deploy 3 Shield Bearer Tokens. They can't move during your next Move Phase.,2,0,0
+Princess of Allume,0/0/0/0/0/0/2/0/0/0,2,Bird/Aristocrat,"Flight/Prompt: Upon arrival, fully heal all Generals.",2,1,2
+Shield Bearer,0/0/0/0/0/0/1/0/0/1,2,Human/Knight,Blocker,0,1,3
+State of Bliss,0/0/0/0/0/0/1/0/0/3,3,Null,Union: Target Infantry can't attack.,0,0,0
+Universal Heal Spell,0/0/0/0/0/0/2/0/0/1,3,Null,Heals target Permanent for 3 health./Gain {C}.,0,0,0
+White Mage,0/0/0/0/0/0/2/0/0/0,2,Human/Spellcaster,"Initiate-{K}: Heals target Infantry, Relic, or Terrain that is up to 1 field away for 2 health.",1,1,3
+Zealous Cleric,0/0/0/0/0/0/1/0/0/2,2,Human/Spellcaster,"Prompt: Upon death, heals a random Allied Permanent on this field for 2 health.",0,2,1
+Bargaining Demon,0/0/0/0/0/0/0/2/0/2,2,Demon,Flight/Initiate-{K}: Deals 1 hit to target General on this Kingdom. Its controller draws a card.,2,3,2
+Bedeviled Pass,0/0/0/0/0/0/0/1/0/5,5,Null,Backlash 5/Enemy Infantry can't move forward out of this field.,2,0,5
+Black Mage,0/0/0/0/0/0/0/2/0/0,2,Human/Spellcaster,"Initiate-{K}: Target Infantry that is up to 1 field away gets -1 attack, -1 health for the turn.",1,1,3
+Blood Rites,0/0/0/0/0/0/0/1/0/1,3,Null,Sarifice an Infantry to deploy this./Draw 2 cards.,0,0,0
+Cannibalism,0/0/0/0/0/0/0/1/0/1,3,Null,Union: Target Infantry gains Hunt.,0,0,0
+Cheap Shot,0/0/0/0/0/0/0/1/0/3,3,Null,Union: Target Infantry gets -2 health.,0,0,0
+Clumsy Robber,0/0/0/0/0/0/0/2/0/4,2,Human/Rogue,"Prompt: Upon death, the Enemy gains 3 less {W} at their next Recovery Phase.",0,5,3
+Damnation,0/0/0/0/0/0/0/3/0/2,3,Null,Expel target Infantry and all cards attached to it.,3,0,0
+Death Rites,0/0/0/0/0/0/0/1/0/2,3,Null,Sarifice an Infantry to deploy this./Deals 2 hits to target General.,1,0,0
+Defeat,0/0/0/0/0/0/0/2/0/2,3,Null,Destroy target Infantry that has taken hits.,1,0,0
+Demon Lord,0/0/0/0/0/0/0/3/0/7,2,Demon,You may sacrifice 3 Infantry instead of paying this card's cost./Flight,2,7,5
+Demonic Reckoning,0/0/0/0/0/0/0/2/0/5,3,Null,Gain control of target Infantry for the turn. Ready it.,2,0,0
+Desertion,0/0/0/0/0/0/0/2/0/1,3,Null,View target Player's Hand. Choose an Infantry or Occurrence. Send it to the Graveyard.,0,0,0
+Evil Horror,0/0/0/0/0/0/0/1/0/3,2,Fiend/Warrior,This can only move onto a Demonic Terrain.,0,4,4
+Gaaleil of the Demons,0/0/0/0/0/0/0/1/0/0,1,Null,Union Prompt: Infantry that attack this get -1 health.,3,0,8
+Grasp of Demons,0/0/0/0/0/0/0/2/0/5,3,Null,Destroy target non-Zodiac Infantry.,0,0,0
+Infernal Abnegator,0/0/0/0/0/0/0/2/0/2,2,Fiend,"Initiate-{K}, Sacrifice this: Deals 4 hits to target General on this Kingdom.",2,0,4
+"Isely, Vampire General",0/0/0/0/0/0/0/1/0/0,1,Null,Initiate-Discard a card: Deals 1 hit to target Infantry on your Homefront and this heals 1 health. Usable once per turn.,2,0,7
+Massacre,0/0/0/0/0/0/0/3/0/6,3,Null,Destroy 3 random Infantry.,3,0,0
+Omgra Brute,0/0/0/0/0/0/0/1/0/3,2,Fiend,Null,0,3,5
+Plague,0/0/0/0/0/0/0/2/0/2,3,Null,"Union: Target Infantry or Terrain has 'Prompt: At your Recovery Phase, gets -2 health.' and 'Prompt: Upon death, deploy a copy of Plague.'",2,0,0
+Poacher,0/0/0/0/0/0/0/2/0/1,2,Human/Rogue,"Prompt: Upon arrival, name a Species./Initiate-{KD}: Destroy target Infantry on this field that has the named Species.",2,1,3
+Pool of Torment,0/0/0/0/0/0/0/1/0/4,5,Null,"Prompt: When an Enemy Infantry on this field dies, the Enemy gains 1 less elemental command at their next Recovery Phase.",1,0,5
+Shade Down,0/0/0/0/0/0/0/2/0/0,3,Null,The Enemy gains 3 less command at their next Recovery Phase./Gain {WWW}.,1,0,0
+Soul Eater,0/0/0/0/0/0/0/2/0/3,2,Fiend,Hunt/Deadly against Essence Infantry.,2,2,6
+Sound of Silence,0/0/0/0/0/0/0/2/0/1,3,Null,Target player discards 2 random cards.,1,0,0
+Succubus,0/0/0/0/0/0/0/2/0/2,2,Fiend,"Union Prompt: Upon arrival, target Infantry gets -1 health.",0,1,3
+Taskmaster Gruub,0/0/0/0/0/0/0/1/0/0,1,Null,"Initiate-{WWW}: Target Fiend on your Homefront gets +1 attack, -1 health for the turn.",1,0,6
+Tomb Wreck,0/0/0/0/0/0/0/1/0/1,3,Null,Expel five random cards from target Player's Graveyard.,0,0,0
+Vampire Bat,0/0/0/0/0/0/0/1/0/1,2,Bat,Flight/Hunt,1,1,3
+Vampire Mystic,0/0/0/0/0/0/0/2/0/3,2,Undead/Spellcaster,"Hunt/Initiate-{D}, Take 2 hits: Draw a card.",1,2,4
+Wither,0/0/0/0/0/0/0/1/0/2,3,Null,"Union: Target Infantry gets -1 attack, -1 health.",0,0,0
+Young Vampire,0/0/0/0/0/0/0/2/0/3,2,Undead,"Hunt/Prompt: Upon arrival, deploy a Thrull Token onto this field.",0,3,4
+Zealous Cultist,0/0/0/0/0/0/0/1/0/0,2,Human/Spellcaster,"Prompt: Upon death, the Enemy discards a card.",0,2,1
+Bone Reader,0/0/0/0/0/0/0/0/2/0,2,Human/Spellcaster,"Prompt: Upon arrival, draw a card. Gain {S}.",0,1,3
+Corpse Theif,0/0/0/0/0/0/0/0/1/2,2,Human/Rogue/Spellcaster,"Prompt: Upon arrival, deploy a Zombie Token onto this field.",0,1,3
+Cursed Graveyard,0/0/0/0/0/0/0/0/2/3,5,Null,"Prompt: When a non-Undead, non-Ghost Infantry dies on this field, deploy a Zombie Token onto this field.",2,0,5
+Cursed Undead,0/0/0/0/0/0/0/0/2/2,2,Undead/Spellcaster,"Prompt: At your Recovery Phase, if this died last turn, put it onto your Homefont from the Graveyard.",2,1,1
+Davy's Chosen,0/0/0/0/0/0/0/0/2/3,2,Ghost/Rogue,"Prompt: Upon arrival, refresh target Allied General's Edict./Resilience 2",2,3,3
+Dawn of the Dead,0/0/0/0/0/0/0/0/3/4,3,Null,Expel all Infantry from Graveyards. Deploy that many Zombie Tokens. Stun them.,2,0,0
+Deny,0/0/0/0/0/0/0/0/2/2,3,Null,Trick-On the Enemy: This player's next deployment is denied.,1,0,0
+Disorient,0/0/0/0/0/0/0/0/1/1,3,Null,Union: Target player discards down to 5 cards in hand at their End Step.,1,0,0
+Ethereal,0/0/0/0/0/0/0/0/1/3,3,Null,Union: Target Infantry gains Resilience 1.,0,0,0
+Fat Zombie,0/0/0/0/0/0/0/0/2/3,2,Undead,Resilience 1,0,4,4
+Flesh Eater,0/0/0/0/0/0/0/0/1/1,2,Undead,Hunt,0,1,4
+Foolish Tomb Robber,0/0/0/0/0/0/0/0/1/5,2,Human/Spellcaster,"Prompt: Upon death, expel a random card from the Enemy's Graveyard.",0,4,5
+General Decay,0/0/0/0/0/0/0/0/1/0,1,Null,Initiate-Sacrifice an Infantry: Name a card. The Enemy discards all cards with that name. Usable once per turn.,3,0,8
+Ghostly Possession,0/0/0/0/0/0/0/0/3/4,3,Null,Union: You control target Infantry./Send it to your Homefront.,2,0,0
+Gore Spitter,0/0/0/0/0/0/0/0/2/1,2,Undead,"Ambush/Prompt: When this battles while on your Homefront, it gets +2 attack for the turn.",1,2,2
+Hieratic Murae,0/0/0/0/0/0/0/0/2/2,2,Equine/Spellcaster,"Prompt: Upon arrival, each player discards a card.",0,3,4
+Illusory Field,0/0/0/0/0/0/0/0/2/3,5,Null,Allied Infantry on this field have Resilience 1.,1,0,4
+Just a Shadow,0/0/0/0/0/0/0/0/1/2,3,Null,"Trick-On an Allied Infantry: The next time this is attacked, deny the attack.",0,0,0
+Knotted Fingers,0/0/0/0/0/0/0/0/1/0,3,Null,Trick-On the Enemy: This player's next 2-or-less cost deployment is denied.,0,0,0
+Mind Mage,0/0/0/0/0/0/0/0/2/0,2,Undead/Spellcaster,Initiate-{K}: Target player puts 2 random cards from the Domain into the Graveyard.,1,1,3
+Murae Ancestor,0/0/0/0/0/0/0/0/1/2,2,Equine/Ghost,"Union Prompt: Upon arrival, gets +1 to +5 attack.",0,0,4
+Overlook,0/0/0/0/0/0/0/0/1/0,3,Null,Target player puts 2 random cards from the Domain into the Graveyard.,0,0,0
+Poltergeist,0/0/0/0/0/0/0/0/1/0,2,Ghost,"Prompt: At your Move Phase, you may move a random Allied Relic on this field instead of this./Prompt: At your End Step, sacrifice this if it isn't on a Homefront.",2,3,3
+Process,0/0/0/0/0/0/0/0/2/2,3,Null,Draw 2 cards.,0,0,0
+Scare,0/0/0/0/0/0/0/0/1/0,3,Null,"Trick-On a Permanent: When this is attacked, the attacking Infantry gets -3 attack for the turn.",0,0,0
+Spirit of the Forlorn,0/0/0/0/0/0/0/0/2/0,2,Ghost,Blocker/Camouflage/Resilience 5,3,0,1
+Sweaty Palms,0/0/0/0/0/0/0/0/2/3,3,Null,"Union: When target player draws a card, they put a random card from the Domain into the Graveyard.",1,0,0
+Time Travel,0/0/0/0/0/0/0/0/3/6,3,Null,Take another turn after this one.,3,0,0
+Tree of Death,0/0/0/0/0/0/0/0/3/3,2,Plant,"Union Prompt: At your End Step, each other Infantry on this field gets -2 health.",2,1,6
+Ugly Specter,0/0/0/0/0/0/0/0/2/2,2,Ghost,Hunt/Initiate-Take 2 hits: Each player discards a card.,1,2,4
+"Um'sa, Staja of the Murae",0/0/0/0/0/0/0/0/1/0,1,Null,Allied Equines on your Homefront have Resilience 1.,1,0,6
+Wilting Miasma,0/0/0/0/0/0/0/0/2/1,3,Null,Union: Target Relic or Terrain has 'Non-Essence Infantry on this field have -1 attack.',1,0,0
+Zombify,0/0/0/0/0/0/0/0/2/2,3,Null,View the Infantry in Graveyards. Deploy one for free./Union: It is Undead.,2,0,0
+Adjunct Core,0/0/0/0/0/0/0/0/0/6,4,Null,Initiate-{TW} or {GW}: Target Infantry gains Camouflage until your next turn./Initiate-{MW} or {DW}: Target Infantry gains Backlash 1 until your next turn./Initiate-{AW} or {SW}: Target Infantry gains Resilience 1 until your next turn.,3,0,4
+Bakarthian Spear,0/0/0/0/0/0/0/0/0/2,4,Armament,Attached Infantry gains +1 attack and 'Initiate-Sacrifice Bakarthian Spear: Deals 1 hit to another target Infantry that is up to 1 field away.',1,0,2
+Bronze Coins,0/0/0/0/0/0/0/0/0/0,4,Null,"Prompt: Upon arrival, heal target Permanent for 1 health.",0,0,1
+Chaos Gate,0/0/0/0/0/0/0/0/0/7,4,Null,"Prompt: Upon arrival, deploy a Robot, Sentinel, and Zombie Token onto this field.",1,0,3
+Concussive Core,0/0/0/0/0/0/0/0/0/6,4,Null,Initiate-{EW} or {MW}: Deals 2 hits to target Relic or Terrain./Initiate-{YW} or {CW}: Target Infantry gets +1 attack for the turn./Initiate-{DW} or {TW}: The Enemy gains 2 less command at their next Recovery Phase.,3,0,4
+Comquerer's Map,0/0/0/0/0/0/0/0/0/3,4,Null,Initiate-Sacrifice this: View the Terrains in your Domain. Put 1 into your hand.,1,0,1
+Cotton Shirt,0/0/0/0/0/0/0/0/0/0,4,Armament,Null,0,0,3
+Decoy Bauble,0/0/0/0/0/0/0/0/0/2,4,Null,"Prompt: Upon arrival, switch locations with this and target Relic. Unattach it.",1,0,1
+Dorothy's House,0/0/0/0/0/0/0/0/0/7,4,Null,"Prompt: Upon arrival, deals 5 hits to target Infantry on this field.",2,0,7
+Dreadforge Sword,0/0/0/0/0/0/0/0/0/6,4,Armament,"Attached Infantry gains +3 attack, +1 health, and Cleave./A Permanent defeated by attached Infantry in combat is expelled instead of destroyed.",3,0,5
+Empty Throne,0/0/0/0/0/0/0/0/0/1,1,King,Begin the game by viewing the Infantry in your Domain. Expel 1. This has that Infantry's elements and health./Your first Infantry deployment each turn costs {W} less if it shares a Species with the expelled Infantry.,2,0,0
+Fabrication Core,0/0/0/0/0/0/0/0/0/6,4,Null,Initiate-{AW} or {YW}: Deploy a Sentinel Token./Initiate-{GW} or {SW}: Draw a card./Initiate-{CW} or {EW}: Your next deployment costs {WWWW} less.,3,0,4
+Force Cannon,0/0/0/0/0/0/0/0/0/3,4,Null,Initiate-Take 1 hit: Stun target Infantry on your Kingdom. Usable once per turn./Initiate-Sacrifice this: Move target Infantry backwards 1 field.,1,0,5
+Gold Coins,0/0/0/0/0/0/0/0/0/0,4,Null,"Prompt: Upon arrival, draw a card.",2,0,1
+Hunter's Net,0/0/0/0/0/0/0/0/0/3,4,Armament,"Attached Infantry gains Range./Prompt: When attached Infantry defeats an Infantry in combat, draw a card.",1,0,4
+Masterpiece Blade,0/0/0/0/0/0/0/0/0/4,4,Armament,Attached Infantry gains +2 attack.,1,0,4
+Platinum Coins,0/0/0/0/0/0/0/0/0/0,4,Null,"Prompt: Upon arrival, gain 2 command of any element.",3,0,1
+Power Cress,0/0/0/0/0/0/0/0/0/2,4,Null,"Prompt: At your Recovery Phase, gain 1 command of a random element.",3,0,3
+Prism Cress,0/0/0/0/0/0/0/0/0/8,4,Null,"Prompt: Upon arrival, gain {EATGYMCDS}.",1,0,4
+Silver Coins,0/0/0/0/0/0/0/0/0/0,4,Null,"Prompt: Upon arrival, gain {WWW}.",1,0,1
+Spiked Armor,0/0/0/0/0/0/0/0/0/3,4,Armament,Backlash 2/Attached Infantry gains +2 health and Backlash 2.,1,0,3
+Tower Shield,0/0/0/0/0/0/0/0/0/2,4,Armament,Attack Infantry has Blocker./Can't be attacked while attached to an Infantry.,0,0,3
+Treasure Chest,0/0/0/0/0/0/0/0/0/5,4,Null,"Prompt: Upon death, draw 2 cards.",1,0,3
+Navitas the Energy,1/0/0/0/0/0/0/0/0/0,1,Null,Null,0,0,7
+Caelum the Aether,0/1/0/0/0/0/0/0/0/0,1,Null,Null,0,0,7
+Ferox the Terra,0/0/1/0/0/0/0/0/0/0,1,Null,Null,0,0,7
+Etus Ex the Transgenic,0/0/0/1/0/0/0/0/0/0,1,Null,Null,0,0,7
+Mutare the Cyborg,0/0/0/0/1/0/0/0/0/0,1,Null,Null,0,0,7
+Machina the Machine,0/0/0/0/0/1/0/0/0/0,1,Null,Null,0,0,7
+Caeleste the Celestial,0/0/0/0/0/0/1/0/0/0,1,Null,Null,0,0,7
+Vocem the Demonic,0/0/0/0/0/0/0/1/0/0,1,Null,Null,0,0,7
+Vis the Essence,0/0/0/0/0/0/0/0/1/0,1,Null,Null,0,0,7
+King Advorsus,0/0/0/0/0/1/0/1/0/0,1,King,Null,1,0,6
+King Aedifici,0/0/1/0/1/0/0/0/0/0,1,King,Null,1,0,6
+King Aequus,0/0/0/0/1/0/0/0/1/0,1,King,Null,1,0,6
+King Batismus,0/1/0/0/0/0/1/0/0/0,1,King,Null,1,0,6
+King Barium,0/1/0/0/0/1/0/0/0/0,1,King,Null,1,0,6
+King Caput,1/0/0/0/1/0/0/0/0/0,1,King,Null,1,0,6
+King Castus,0/0/0/1/0/0/1/0/0/0,1,King,Null,1,0,6
+King Cinis,1/0/0/0/0/0/0/0/0/0,1,King,Null,1,0,6
+King Equites,0/0/1/0/0/1/0/0/0/0,1,King,Null,1,0,6
+King Erysiplea,1/0/0/0/0/0/1/0/0/0,1,King,Null,1,0,6
+King Everto,0/1/0/0/0/0/0/0/1/0,1,King,Null,1,0,6
+King Fabrica,0/0/0/0/1/1/0/0/0/0,1,King,Null,1,0,6
+King Imago,0/0/0/0/1/0/1/0/0/0,1,King,Null,1,0,6
+King Immuto,0/0/0/1/1/0/0/0/0/0,1,King,Null,1,0,6
+King Infernum,1/0/0/0/0/0/0/1/0/0,1,King,Null,1,0,6
+King Lacerta,1/0/0/1/0/0/0/0/0/0,1,King,Null,1,0,6
+King Lar,0/0/0/0/0/1/1/0/0/0,1,King,Null,1,0,6
+King Lues,0/0/0/1/0/0/0/1/0/0,1,King,Null,1,0,6
+King Luto,0/1/1/0/0/0/0/0/0/0,1,King,Null,1,0,6
+King Lutum,0/0/1/1/0/0/0/0/0/0,1,King,Null,1,0,6
+King Medius,0/0/0/1/0/0/0/0/1/0,1,King,Null,1,0,6
+King Mors,0/0/0/0/0/0/0/1/1/0,1,King,Null,1,0,6
+King Oburo,0/0/1/0/0/0/0/0/1/0,1,King,Null,1,0,6
+King Piscis,0/1/0/1/0/0/0/0/0/0,1,King,Null,1,0,6
+King Productio,0/0/0/1/0/1/0/0/0/0,1,King,Null,1,0,6
+King Profligo,0/1/0/0/0/0/0/1/0/0,1,King,Null,1,0,6
+King Purgatorium,0/0/0/0/0/0/1/1/0/0,1,King,Null,1,0,6
+King Quietus,0/0/0/0/0/1/0/0/1/0,1,King,Null,1,0,6
+King Resilio,1/0/0/0/0/1/0/0/0/0,1,King,Null,1,0,6
+King Rogi,1/0/0/0/0/0/0/0/1/0,1,King,Null,1,0,6
+King Sacratus,0/0/1/0/0/0/1/0/0/0,1,King,Null,1,0,6
+King Spolio,0/0/1/0/0/0/0/1/0/0,1,King,Null,1,0,6
+King Vapor,1/1/0/0/0/0/0/0/0/0,1,King,Null,1,0,6
+King Venefici,0/0/0/0/1/0/0/1/0/0,1,King,Null,1,0,6
+King Vigil,0/1/0/0/1/0/0/0/0/0,1,King,Null,1,0,6
+King Vitae,0/0/0/0/0/0/1/0/1/0,1,King,Null,1,0,6
